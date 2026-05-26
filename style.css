@@ -414,7 +414,7 @@ canvas { display:block; }
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  min-height: 110px;
+  min-height: 50px;
   box-shadow: 0 4px 24px rgba(0,0,0,0.45);
   transition: transform .25s cubic-bezier(.34,1.26,.64,1), box-shadow .25s ease, border-color .25s;
   animation: kpiIn .4s cubic-bezier(.34,1.26,.64,1) both;
@@ -454,7 +454,7 @@ canvas { display:block; }
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 24px; height: 24px;
+  width: 18px; height: 18px;
   border-radius: 7px;
   font-size: .75rem;
   flex-shrink: 0;
